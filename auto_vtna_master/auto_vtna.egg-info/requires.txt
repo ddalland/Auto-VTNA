@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+polyfit
+num2words
+scikit-learn
+scipy
