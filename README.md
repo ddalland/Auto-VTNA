@@ -15,5 +15,7 @@ Auto-VTNA utilises a robust method to quantify the degree of concentration profi
 ## The Automatic VTNA Calculator
 To give users access to the advantages of Auto-VTNA without the requirement of coding experience, a graphical user interface (GUI) was developed using PySimpleGui named the Automatic VTNA Calculator. This file can be found as Auto_VTNA_GUI.py in the Python package or simply downloaded as an executible application (currently from https://drive.google.com/file/d/1Rf0Hbi5fWXm2KILTKx5eOIQMjuHAvbPp/view?usp=drive_link). As the GUI is written to help the user access the data visualisation, conventional and automatic VTNA functionality and other features of Auto_VTNA in only a few mouse clicks, it is recommended also for users with coding experience. 
 
-## Kinetic data 
-
+###NB: soon to be provided:
+- Youtube tutorial on how to use the Automatic VTNA Calculator.
+- Jupyter notebook tutorial files to illustrate the use of the Auto_VTNA Python package on simulated kinetic data.
+- Next version of the package and GUI with some bugs fixed. 
