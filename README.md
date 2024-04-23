@@ -13,11 +13,12 @@ VTNA is a modern kinetic analysis method pioneered by Jordi Bures based on norma
 Auto-VTNA utilises a robust method to quantify the degree of concentration profile overlay based on total monotonic or ordinary polynomial fitting of all normalised concentration profiles. This computational overlay score enables VTNA to be carried out automatically via an algorithm which identifies the reaction order values that otpimise the overlay score. Importantly, the automatic VTNA algorithm can identify the reaction order of several reaction species in one calculation if the initial concentration of each reaction species is varied at least once in the kinetic dataset (automatic total VTNA). The conventional approach of identifying one reaction order value at the time can also be performed automatically by selecting the experiments in which only the initial concentration of the relevant reaction species is altered (automatic sequential VTNA). 
 Auto-VTNA also offers significantly improved analysis of the uncertainty of the calculated order value(s) as well as visualisation of the inputed kinetic data and results from automatic or ordinary VTNA calculations. A more detailed description of the Python package can be found in this pre-print: https://chemrxiv.org/engage/chemrxiv/article-details/65fddc2d66c1381729948bb2 and the corresponding ESI. 
 
-| Experiment | [A]_0 | Column 3 Header | Column 4 Header | Column 5 Header |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| Exp 1   | Row 1, Col 2    | Row 1, Col 3    | Row 1, Col 4    | Row 1, Col 5    |
-| Exp 2  | Row 2, Col 2    | Row 2, Col 3    | Row 2, Col 4    | Row 2, Col 5    |
-| Exp 3| Row 3, Col 2    | Row 3, Col 3    | Row 3, Col 4    | Row 3, Col 5    |
+| Experiment | [A]<sub>0</sub> | [B]<sub>0</sub> | [cat]<sub>0</sub> | 
+|-----------------|-----------------|-----------------|-----------------|
+| Exp 1   | 2.0 M   | 2.0 M  | 0.01 M    | 
+| Exp 2  | 1.0 M   | 2.0 M  | 0.01 M  | 
+| Exp 3| 2.0 M    | 1.0 M    | 0.01 M   | 
+| Exp 4| 2.0 M    | 2.0 M    | 0.005 M   | 
 
 
 
