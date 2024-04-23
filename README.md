@@ -15,10 +15,10 @@ Auto-VTNA also offers significantly improved analysis of the uncertainty of the 
 
 | Experiment | [A]<sub>0</sub> | [B]<sub>0</sub> | [cat]<sub>0</sub> | 
 |-----------------|-----------------|-----------------|-----------------|
-| Exp 1   | 2.0 M   | 2.0 M  | 0.01 M    | 
-| Exp 2  | 1.0 M   | 2.0 M  | 0.01 M  | 
-| Exp 3| 2.0 M    | 1.0 M    | 0.01 M   | 
-| Exp 4| 2.0 M    | 2.0 M    | 0.005 M   | 
+| Exp 1: Standard | 2.0 M   | 2.0 M  | 0.01 M    | 
+| Exp 2: Different excess in A  | 1.0 M   | 2.0 M  | 0.01 M  | 
+| Exp 3| Different excess in B  | 1.0 M    | 0.01 M   | 
+| Exp 4| Different excess in P   | 2.0 M    | 0.005 M   | 
 
 
 
