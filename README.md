@@ -24,12 +24,8 @@ Auto-VTNA utilises a robust method to quantify the degree of concentration profi
 The conventional approach of identifying one reaction order value at the time can also be performed automatically by selecting the experiments in which only the initial concentration of the relevant reaction species is altered (automatic sequential VTNA). 
 Auto-VTNA also offers significantly improved analysis of the uncertainty of the calculated order value(s) as well as visualisation of the inputed kinetic data and results from automatic or ordinary VTNA calculations. A more detailed description of the Python package can be found in this pre-print: https://chemrxiv.org/engage/chemrxiv/article-details/65fddc2d66c1381729948bb2 and the corresponding ESI. 
 
-
-
-
-
 ## The Automatic VTNA Calculator
-To give users access to the advantages of Auto-VTNA without the requirement of coding experience, a graphical user interface (GUI) was developed using PySimpleGui named the Automatic VTNA Calculator. This file can be found as Auto_VTNA_GUI.py in the Python package or simply downloaded as an executible application (currently from https://drive.google.com/file/d/10Tp8gTcDM4zp7xC7g6l0A6xrT56eidsN/view?usp=drive_link). As the GUI is written to help the user access the data visualisation, conventional and automatic VTNA functionality and other features of Auto_VTNA in only a few mouse clicks, it is recommended also for users with coding experience. 
+To give users access to the advantages of Auto-VTNA without the requirement of coding experience, a graphical user interface (GUI) was developed using PySimpleGui named the Automatic VTNA Calculator. This file can be found as Auto_VTNA_GUI.py in the Python package or simply downloaded as an executible application (currently from https://drive.google.com/file/d/1p6gPdmGTt2o32ueVD2Jnts269cob1koo/view?usp=sharing). As the GUI is written to help the user access the data visualisation, conventional and automatic VTNA functionality and other features of Auto_VTNA in only a few mouse clicks, it is recommended also for users with coding experience. 
 
 ### NB: soon to be provided:
 - Youtube tutorial on how to use the Automatic VTNA Calculator.
