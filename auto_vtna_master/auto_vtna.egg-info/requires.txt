@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+num2words
+mplcursors
+scipy
+polyfit
+PySimpleGUI
+openpyxl
