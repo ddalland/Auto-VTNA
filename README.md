@@ -27,11 +27,12 @@ To give users access to the advantages of Auto-VTNA without the requirement of c
 
 ## Dependencies of the Auto-VTNA python package:
 - pandas==2.2.2
-- numpy==1.26.0
+- numpy==1.26.4
 - matplotlib==3.9.0
 - num2words==0.5.13
 - mplcursors==0.5.3
 - scipy==1.13.1
 - polyfit==1.0
-- PySimpleGUI==4.60.5
+- PySimpleGUI==5.0.5
 - openpyxl==3.1.3
+Note that these dependencies also work for several older versions of packages, but the versions above have been shown to work. 
