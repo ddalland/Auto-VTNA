@@ -5,6 +5,8 @@ import numpy as np
 import matplotlib
 matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
+import logging
+logging.getLogger('matplotlib.font_manager').disabled = True
 import auto_vtna
 import tkinter as tk
 from auto_vtna.Normal_VTNA import Normal_VTNA
@@ -26,9 +28,23 @@ import time
 from polyfit import PolynomRegressor, Constraints
 from num2words import num2words
 from scipy.optimize import curve_fit
-
+# Define a global variable to use to cancel calculations if requested by user. 
 global cancel_calculation
 cancel_calculation=False
+print('Welcome to the Automatic VTNA Calculator! Visit https://github.com/ddalland/Auto-VTNA for more details or check out the Auto-VTNA pre-print: https://chemrxiv.org/engage/chemrxiv/article-details/65fddc2d66c1381729948bb2')
+print('Developed by Daniel Dalland with help and input from Dr. Linden Schrecker and Prof. King Kuok (Mimi) Hii at the Imperial College Department of Chemistry.')
+print('We are grateful for the creators of the following dependencies:')
+print('1. PySimpleGUI: Simplified GUI creation.')
+print('2. Pandas: Data manipulation and analysis.')
+print('3. NumPy: Numerical computing.')
+print('4. Matplotlib: Data visualization.')
+print('5. kinter: GUI toolkit.')
+print('6. Openpyxl: Excel file handling.')
+print('7. Polyfit: Monotonically constrained polynomial fitting.')
+print('8. Num2words: Number to word conversion.')
+print('10. Scipy: Curve fitting.')
+print("We are also grateful for OpenAI's ChatGTP which was used when writing parts of the code.")
+print("For more information, check out the Auto-VTNA Github page: https://github.com/ddalland/Auto-VTNA and the pre-print of the relevant publication: https://chemrxiv.org/engage/chemrxiv/article-details/66269b0321291e5d1d64c3c9")
 
 def extract_range_info(values,data):
     '''Function used in the range mode data cropping window to extract 
@@ -147,8 +163,8 @@ def overlay_plot(kinetic_data,experiments,NS_dict,output_reaction_species,tt_sca
                     legend_outside=legend_outside,extra_legend=extra_legend,linewidth=line_scaler,
                     xaxis_notation=tT_notation)
 class Automatic_VTNA:
-    def __init__(self,data,VTNA_selection,order_range=[-1.5,2.5],resolution=10,deg=5, \
-                 fit_metric='SE',iterations=4,constraint='monotonic',score_interval=0.15,\
+    def __init__(self,data,VTNA_selection,order_range=[-1.5,2.5],resolution=7,deg=5, \
+                 fit_metric='RMSE',iterations=7,constraint='monotonic',score_interval=0.15,\
                 fixed_order_species=None,initial_mesh_denser=True):
         # Initialise the class:
         self.data=data.copy()

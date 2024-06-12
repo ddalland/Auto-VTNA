@@ -10,8 +10,8 @@ import matplotlib.ticker as tkr
 import warnings
 
 class Automatic_VTNA:
-    def __init__(self,data,VTNA_selection,order_range=[-1.5,2.5],resolution=10,deg=5, \
-                 fit_metric='SE',iterations=4,constraint='monotonic',score_interval=0.15,\
+    def __init__(self,data,VTNA_selection,order_range=[-1.5,2.5],resolution=7,deg=5, \
+                 fit_metric='RMSE',iterations=7,constraint='monotonic',score_interval=0.15,\
                 fixed_order_species=None,initial_mesh_denser=True):
         # Initialise the class:
         self.data=data.copy()

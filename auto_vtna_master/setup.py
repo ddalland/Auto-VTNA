@@ -6,7 +6,7 @@ NAME = 'auto_vtna'
 DESCRIPTION = 'A Python package for efficient and automatic VTNA analysis'
 EMAIL = 'dd4518@ic.ac.uk'
 AUTHOR = 'Daniel Dalland'
-VERSION = "1.0.3"
+VERSION = "1.0.8"
 REQUIRED=[
     'pandas',
     'numpy',
