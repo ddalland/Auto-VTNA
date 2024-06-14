@@ -38,4 +38,7 @@ To give users access to the advantages of Auto-VTNA without the requirement of c
 
 Note that these dependencies also work for several older versions of packages, but the versions above have been shown to work.
 
-## User manual for the python package and graphical user interface: See attachment. 
+## User manuals:
+
+For user manuals for the python package and graphical user interface: See attachment. Also, check out the YouTube tutorial on using the Automatic VTNA Calculator: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW 
+
