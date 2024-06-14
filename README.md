@@ -35,4 +35,7 @@ To give users access to the advantages of Auto-VTNA without the requirement of c
 - polyfit==1.0
 - PySimpleGUI==5.0.5
 - openpyxl==3.1.3
-Note that these dependencies also work for several older versions of packages, but the versions above have been shown to work. 
+
+Note that these dependencies also work for several older versions of packages, but the versions above have been shown to work.
+
+## User manual for the python package and graphical user interface: See attachment. 
