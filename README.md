@@ -40,5 +40,6 @@ Note that these dependencies also work for several older versions of packages, b
 
 ## User manuals:
 
-For user manuals for the python package and graphical user interface: See attachment. Also, check out the YouTube tutorial on using the Automatic VTNA Calculator: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW 
+For user manuals for the python package and graphical user interface: See attachments in respository files. 
+Also, check out the YouTube tutorial on using the Automatic VTNA Calculator: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW 
 
