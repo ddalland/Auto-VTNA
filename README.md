@@ -38,6 +38,15 @@ To give users access to the advantages of Auto-VTNA without the requirement of c
 
 Note that these dependencies also work for several older versions of packages, but the versions above have been shown to work.
 
+## Version 1.1.1:
+On 24.09.2024, a new version of Auto-VTNA (1.1.1) was finalized and made available on PyPi. This version mostly contains improvements to the GUI, such as: 
+
+- Cleaner layout, especially in the settings menus, with column elements ensuring that input boxes, etc., are aligned. Improved error handling. If the imported data is faulty (e.g., containing negative concentration values or inconsistent column headings), the user will be notified immediately. Calculations that would crash the GUI are stopped with an appropriate warning.
+- Improved range mode data cropping. The user can now specify how the density of the kinetic data should be reduced, i.e., with respect to the time or one of the concentration axes. The option for automatically removing negative values, as well as shifting the time axis if the first data point(s) have been cropped, is included.
+- The "Plot all profiles for selected species" option in the Inspect Kinetic Data window has also been updated to enable the simultaneous visualization of all concentration profiles for more than one selected reaction species.
+
+Additionally, the class Same_excess has been added to the package. This class inputs two experiment sheets where one experiment has initial concentrations lower than the other by the same amount in each reactant. The time axis of the most dilute experiment is then shifted horizontally to "touch" the profile of the more concentrated experiment. The modified data can be visualized using the method plot_same_excess, which enables the user to adjust the horizontal shift as desired to generate a good same-excess plot.
+
 ## User manuals:
 
 For user manuals for the python package and graphical user interface: See attachments in respository files. 
