@@ -39,7 +39,7 @@ To give users access to the advantages of Auto-VTNA without the requirement of c
 Note that these dependencies also work for several older versions of packages, but the versions above have been shown to work.
 
 ## Version 1.1.1:
-On 24.09.2024, a new version of Auto-VTNA (1.1.1) was finalized and made available on PyPi. This version mostly contains improvements to the GUI, such as: 
+On 24.09.2024, a new version of Auto-VTNA (1.1.1) was finalized and made available on PyPi. This version mostly contains improvements to the GUI, which are incorporated into its second version (see Google drive link above). The improvements include: 
 
 - Cleaner layout, especially in the settings menus, with column elements ensuring that input boxes, etc., are aligned. Improved error handling. If the imported data is faulty (e.g., containing negative concentration values or inconsistent column headings), the user will be notified immediately. Calculations that would crash the GUI are stopped with an appropriate warning.
 - Improved range mode data cropping. The user can now specify how the density of the kinetic data should be reduced, i.e., with respect to the time or one of the concentration axes. The option for automatically removing negative values, as well as shifting the time axis if the first data point(s) have been cropped, is included.
