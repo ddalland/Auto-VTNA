@@ -4,7 +4,10 @@ Auto-VTNA is a Python package that provides automatic variable time normalisatio
 - VTNA with several normalised reaction species;
 - Visualisation of overlay score across different reaction orders;
 - Quantification of uncertainty;
-- Improved accessibility via a graphical user interface which can be downloaded from https://drive.google.com/file/d/1wsXq9gAJyrCMphbnrqYXViKLNYKChxDn/view?usp=drive_link (version 2, recommended) or https://drive.google.com/file/d/1p6gPdmGTt2o32ueVD2Jnts269cob1koo/view?usp=drive_link (version 1). 
+- Improved accessibility via a graphical user interface which can be downloaded from https://drive.google.com/file/d/1wsXq9gAJyrCMphbnrqYXViKLNYKChxDn/view?usp=drive_link (version 2, recommended) or https://drive.google.com/file/d/1p6gPdmGTt2o32ueVD2Jnts269cob1koo/view?usp=drive_link (version 1).
+
+Youtube tutorial on the first version of the Automatic VTNA Calculator GUI: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW
+Follow-up Youtube video on the second version of the GUI: https://youtu.be/6JAytwnDCRE
 
 ## Background
 VTNA is a modern kinetic analysis method pioneered by Jordi Bures based on normalising the time axis of experiments with respect to the concentration profile of reactants, catalysts or additives whose intial concentration is varied between experiments raised to a selected order value. The correct order value is the one that gives concentration profile overlay: https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201609757. VTNA is traditionally carried out in Excel, for example with an Excel spreadsheet tool which can be downloaded from the supplementary information in a review by Jordi Bures and Christian Nielsen on Visual Kinetic Analysis: https://pubs.rsc.org/en/content/articlelanding/2019/sc/c8sc04698k. 
@@ -50,5 +53,5 @@ Additionally, the class Same_excess has been added to the package. This class in
 ## User manuals:
 
 For user manuals for the python package and graphical user interface: See attachments in respository files. 
-Also, check out the YouTube tutorial on using the Automatic VTNA Calculator: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW 
+Also, check out the YouTube tutorial on using the Automatic VTNA Calculator: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW as well as the video outlining the new features of the second version of the GUI executible: https://youtu.be/6JAytwnDCRE
 
