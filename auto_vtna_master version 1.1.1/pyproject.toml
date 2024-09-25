@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto_vtna"
+version = "1.1.1"
+description = "A Python package for efficient and automatic VTNA analysis"
+authors = [
+    { name = "Daniel Dalland", email = "dd4518@ic.ac.uk" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "num2words",
+    "mplcursors",
+    "scipy",
+    "polyfit",
+    "PySimpleGUI",
+    "openpyxl"
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+readme = { file = "README.md", content-type = "text/markdown" }  # Fix readme format
+
+[project.urls]
+Repository = "https://github.com/ddalland/Auto-VTNA"
+
+[tool.setuptools]
+include-package-data = true
+packages = { find = {} }
+
+[tool.setuptools.package-data]
+"auto_vtna" = ["*"]
+
+[tool.poetry]
+readme = "README.md"
+readme-content-type = "text/markdown"
