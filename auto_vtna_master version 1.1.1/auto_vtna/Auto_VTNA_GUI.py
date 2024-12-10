@@ -11,7 +11,7 @@ import auto_vtna
 import tkinter as tk
 from auto_vtna import plot_data_together
 from  auto_vtna.Normal_VTNA import Normal_VTNA
-from Same_Excess import Same_Excess
+from  auto_vtna.Same_Excess import Same_Excess
 import copy
 import re
 import os
