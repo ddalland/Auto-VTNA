@@ -1,4 +1,4 @@
-from auto_vtna.VTNA_functions import same_excess
+from VTNA_functions import same_excess
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
