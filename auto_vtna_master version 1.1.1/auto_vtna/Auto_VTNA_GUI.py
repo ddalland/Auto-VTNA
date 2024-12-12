@@ -10,8 +10,8 @@ logging.getLogger('matplotlib.font_manager').disabled = True
 import auto_vtna
 import tkinter as tk
 from auto_vtna import plot_data_together
-from auto_vtna.Normal_VTNA import Normal_VTNA
-from auto_vtna.Same_Excess import Same_Excess
+from  auto_vtna.Normal_VTNA import Normal_VTNA
+from  auto_vtna.Same_Excess import Same_Excess
 import copy
 import re
 import os
@@ -29,7 +29,8 @@ import time
 from polyfit import PolynomRegressor, Constraints
 from num2words import num2words
 from scipy.optimize import curve_fit
-# Define a global variable to use to cancel calculations if requested by user. 
+import platform
+# Define a global variable to use to cancel calculations if requested by user.
 global cancel_calculation
 cancel_calculation=False
 print('''Welcome to the second version of the Automatic VTNA Calculator! Visit the GitHub page: https://github.com/ddalland/Auto-VTNA and read the publication: https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00111g 
@@ -1305,7 +1306,7 @@ def main():
     layout = [
         [sg.Frame("Load Kinetic Data",size=[534,69], layout=[
             [sg.Text("Use Excel file:"),
-            sg.InputText(key="file_path", enable_events=True, size=(12, 1)), 
+            sg.InputText(key="file_path", enable_events=True, size=(12, 1)),
             sg.FileBrowse(),sg.Text("Or:"),sg.Button("Use CSVs",key="Select CSVs")]
         ])],
         [sg.Button("Check data",key="Check Kinetic Data", disabled=True),
@@ -1348,10 +1349,19 @@ def main():
         sg.Column([[sg.pin(sg.Button('Refresh',key='refresh_interval_table',enable_events=True,visible=False,metadata=False))]])],
         [sg.pin(sg.Table(values={},headings=['Normalised species','Lower order limit','Upper order limit'],auto_size_columns=False,col_widths=[14,13,13],key='interval_table',visible=False))]
     ]
+
+
+
     window = sg.Window("Automatic VTNA Calculator V2", layout)
-    # Generate and close a matplotlib pyplot graph to avoid GUI resolution bug.
-    plt.plot([1,2],[1,2])
-    plt.close()
+
+    # check if the user is on windows or mac
+
+    if platform.system() == 'Windows':
+        # Generate and close a matplotlib pyplot graph to avoid GUI resolution bug.
+        plt.plot([1,2],[1,2])
+        plt.close()
+
+
     # Maintain an infinite loop to process events until the window is shut down
     while True:
         event, values = window.read()
