@@ -5,6 +5,7 @@ Auto-VTNA is a Python package that provides automatic variable time normalisatio
 - Visualisation of overlay score across different reaction orders;
 - Quantification of uncertainty;
 - Improved accessibility via a graphical user interface which can be downloaded from https://drive.google.com/file/d/1wsXq9gAJyrCMphbnrqYXViKLNYKChxDn/view?usp=drive_link (version 2, recommended) or https://drive.google.com/file/d/1p6gPdmGTt2o32ueVD2Jnts269cob1koo/view?usp=drive_link (version 1).
+- Mac version: https://drive.google.com/file/d/1f7olytkpr0IVIT7xbB41zup4rweVwIWc/view?usp=sharing
 
 Youtube tutorial on the first version of the Automatic VTNA Calculator GUI: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW
 Follow-up Youtube video on the second version of the GUI: https://youtu.be/6JAytwnDCRE
