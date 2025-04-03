@@ -6,7 +6,7 @@ Auto-VTNA is a Python package that provides automatic variable time normalisatio
 - Quantification of uncertainty;
 - Improved accessibility via a graphical user interface which can be downloaded from https://drive.google.com/file/d/1wsXq9gAJyrCMphbnrqYXViKLNYKChxDn/view?usp=drive_link (version 2, recommended) or https://drive.google.com/file/d/1p6gPdmGTt2o32ueVD2Jnts269cob1koo/view?usp=drive_link (version 1).
 - Mac version: https://drive.google.com/file/d/1f7olytkpr0IVIT7xbB41zup4rweVwIWc/view?usp=sharing
-
+- Unfortunately, PySimpleGUI now requires that users pay for a commercial licence for using it. So the GUI is only accessible by paying for this, unless you got a hobbyist licence before it became unavailable. Hopefully, I will be able to remake a GUI with a different package in the future. However, the Python package and use of Auto-VTNA in Python is unaffected by this. 
 Youtube tutorial on the first version of the Automatic VTNA Calculator GUI: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW
 Follow-up Youtube video on the second version of the GUI: https://youtu.be/6JAytwnDCRE
 
