@@ -5,7 +5,7 @@ Auto-VTNA is a Python package that provides automatic variable time normalisatio
 - Visualisation of overlay score across different reaction orders;
 - Quantification of uncertainty;
 - Improved accessibility via a graphical user interface using PySimpleGUI.
-- Unfortunately, PySimpleGUI became a commercial package earlier in 2025, which required a $100 payment for its use. Since this, the project has been discontinued all together. __Therefore, I have prepared a version that uses a free version of PySimpleGUI (FreeSimpleGUI): https://drive.google.com/file/d/17oiEvbNE35M0y2EI3k6NC-RLrVPOzAQL/view?usp=sharing__ A Mac version of this will be made shortly.
+- Unfortunately, PySimpleGUI became a commercial package earlier in 2025, which required a $100 payment for its use. Since this, the project has been discontinued all together. __Therefore, I have prepared a version that uses a free version of PySimpleGUI (FreeSimpleGUI): [https://drive.google.com/file/d/17oiEvbNE35M0y2EI3k6NC-RLrVPOzAQL/view?usp=sharing__](https://drive.google.com/file/d/1AF1tlCxoF0jHkGCGWfa0LFM2wdzJ0HJq/view?usp=sharing)  A Mac version of this will be made shortly.
 - Mac version (not free yet): https://drive.google.com/file/d/1f7olytkpr0IVIT7xbB41zup4rweVwIWc/view?usp=sharing
 - Youtube tutorial on the first version of the Automatic VTNA Calculator GUI: https://youtu.be/FEDwvUY1Dl4?si=zHkratsrWyWnk0tW
 Follow-up Youtube video on the second version of the GUI: https://youtu.be/6JAytwnDCRE
